@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", '~> 4.0', '<= 4.2.7.1'
-  s.add_dependency 'sass-rails', '~> 4.0', '>= 4.0.0'
-  s.add_dependency "jquery-rails", '~> 3.1'
+  s.add_dependency 'sass-rails', '~> 5.0'
+  s.add_dependency "jquery-rails", '~> 4.1'
   s.add_dependency "ckeditor", '~> 4.1.0'
 
   s.add_development_dependency "sqlite3"
